@@ -61,7 +61,7 @@
 
   - name: perform centos65-specific installation
     include: 'centos65/install.yml'
-    when: npme_platform == "centos65"
+    when: npme_platform == "centos64"
 
   - name: install npm@npme-beta
     sudo: true

@@ -1,6 +1,6 @@
 ---
   - include_vars: centos65.yml
-    when: npme_platform == "centos65"
+    when: npme_platform == "centos64"
 
   - include_vars: unknown.yml
     when: npme_platform == "unknown"
